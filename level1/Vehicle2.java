@@ -1,5 +1,5 @@
 package Level1_18_01_2026;
-class Vehicle {
+class Vehicle2 {
     static double registrationFee = 500.0;
     static void updateRegistrationFee(double newFee) {
         registrationFee = newFee;
@@ -9,7 +9,7 @@ class Vehicle {
     String vehicleType;
     final String registrationNumber;
 
-    Vehicle(String ownerName, String vehicleType, String registrationNumber) {
+    Vehicle2(String ownerName, String vehicleType, String registrationNumber) {
         this.ownerName = ownerName;
         this.vehicleType = vehicleType;
         this.registrationNumber = registrationNumber;

@@ -1,5 +1,5 @@
 package Level1_18_01_2026;
-class Product {
+class Product2 {
     static double discount = 10.0;
 
     static void updateDiscount(double newDiscount) {
@@ -11,7 +11,7 @@ class Product {
     int quantity;
     final String productID;
 
-    Product(String productName, double price, int quantity, String productID) {
+    Product2(String productName, double price, int quantity, String productID) {
         this.productName = productName;
         this.price = price;
         this.quantity = quantity;
